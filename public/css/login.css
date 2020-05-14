@@ -1,0 +1,191 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-columns {
+    background: white;
+    float: left;
+    width: 35%;
+    height: 650px;
+    padding: 25px;
+}
+
+.login-columns1 {
+    float: left;
+    width: 65%;
+    height: 650px;
+    padding: 25px;
+    text-align: center;
+    background-image: url("/images/werty.jpg");
+    border-left: 1px solid black;
+}
+
+.img-logo {
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.img-logo-2 {
+    width: 300px;
+    height: 150px;
+    margin-left: 13% !important;
+}
+
+.input-login {
+    margin-top: 20px;
+}
+
+.input-login label {
+    font-weight: 700;
+	margin: 0;
+}
+
+input[type=text].login-input, input[type=password].login-input {
+    margin: 5px 0;
+    padding-left: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.login-input::-webkit-input-placeholder {
+	font-size: 10pt;
+	padding-left: 0;
+	opacity: 0.5;
+}
+
+.login-input::-moz-placeholder {
+	font-size: 10pt;
+	padding-left: 0;
+	opacity: 0.5;
+}
+
+.container-box {
+    margin: 3% 0 0 34%;
+    position: relative;
+    width: 30%;
+    height: 555px;
+    background: white;
+    border-radius: 6%;
+    border: 1px solid black;
+}
+
+.admin-bg {
+    background: black;
+}
+
+.login-header {
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 15px;	
+	margin: 10px 135px !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px)
+{
+    .container-box {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height: 570px;
+    }
+
+    .img-logo-2 {
+        margin-left: 4%;
+    }
+
+    .login-header {
+        margin: 10px 90px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px)
+{
+    .container-box {
+       width: 100%;
+       height: 570px;
+       margin: 0;
+       border-radius: 0;
+    }
+    
+    .login-header {
+        margin: 10px 100px;
+        width: 100%;
+    }
+
+    .img-logo-2 {
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px)
+{
+    .img-logo-2 {
+        margin-left: 10%;
+    }
+
+    .login-header {
+        margin: 10px 120px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 640px)
+{
+    .img-logo-2 {
+        margin-left: 14%;
+    }
+
+    .login-header {
+        margin: 10px 130px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px)
+{
+    .login-header {
+        margin: 10px 140px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .container-box {
+        width: 100%;
+        margin: 0;
+        height: 570px;
+        border-radius: 0;
+    }
+
+    .login-header {
+        margin: 10px 300px !important;
+    }
+
+    .img-logo-2 {
+        margin-left: 29% !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px)
+{
+    .login-header {
+        width: 100%;
+        margin: 10px 380px;
+    }
+
+    .img-logo-2 {
+        margin-left: 36%;
+    }
+}
